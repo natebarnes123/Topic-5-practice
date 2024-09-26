@@ -1,18 +1,37 @@
-﻿namespace Topic_5_practice
+﻿using System.ComponentModel.Design;
+using System.Reflection.PortableExecutable;
+
+namespace Topic_5_practice
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            string sigma;
-            Console.WriteLine("What is the word for the alpha wolf?");
-            sigma = Console.ReadLine();
-            if (sigma == "correct!") ;
+            string magicWord;
+
+            Console.WriteLine("Whats the magic word?");
+            magicWord = Console.ReadLine();
+            if (magicWord.ToLower() == "please") 
+            {
+                Console.WriteLine("Your welcome.");
+
+               
+            }
             
+            else
+            {
+                Console.WriteLine("Thats not the magic word");
+            }
+                Console.WriteLine("That's not the magic word");
+
+            }
 
 
 
 
         }
+
+
+
     }
-}
+
